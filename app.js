@@ -8,7 +8,7 @@ let products = ["Test"];
 
 app.use(bodyParser.json());
 app.use(bodyParser.text());
-app.get("/", (req, res) => res.send("Hello World!"));
+app.get("/", (req, res) => res.send("Hello World!!!"));
 
 app.post("/products", (req, res) => {
   const product = req.body;
